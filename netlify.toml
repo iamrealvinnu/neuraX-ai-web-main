@@ -1,0 +1,13 @@
+[build]
+  
+  publish = "dist"
+  # The build command to generate our production files
+  command = "npm run build"
+
+[dev]
+  # Port for Netlify Dev (optional)
+  port = 8888
+
+[functions]
+  # Path to the folder containing serverless functions (optional)
+  directory = "functions"
